@@ -161,7 +161,7 @@ Concepts are proposals for some work that the DAO should fund as a Bounty, that 
 
 Admins can [Accept](#435-processing-task-claims) any Concept that meets our [Concept Acceptance Criteria](#411-concept-acceptance-criteria) on a first-come first-serve basis.
 
-Once accepted, the user who created the Concept is automatically assigned as a [Stakeholder](#25-bounty-stakeholders) of the corresponding bounty.
+Once accepted, the user who created the Concept is automatically assigned as a [Stakeholder](#25-bounty-stakeholders) to the corresponding bounty and awarded a task for the submitted Concept.
 
 ## 2.2 Bounty Types
 
