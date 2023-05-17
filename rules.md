@@ -27,11 +27,11 @@ View [RULES HISTORY](https://github.com/crypto-website/castle-rules/commits/mast
 
 # 1 Crytpo Castle
 
-[Crypto Castle](https://cryptocastle.tech/) is fully open-source DAO governed and funded by the JMES Blockchain.
+[Crypto Castle](https://cryptocastle.tech/) is a fully open-source DAO, governed and funded by the JMES Blockchain.
 
-The Castle is (a candidate for) the Core-Engineering DAO slot in the JMES Protocol, which develops and maintains the Official JMES World Core Software, such as the Validator and Official Mobile wallet app.
+The Castle is (a candidate for) the Core-Engineering DAO slot in the JMES Protocol, which develops and maintains the Official JMES World Core Software, such as the Validator network and Official Mobile wallet app.
 
-The DAO is a non-profit, non-commercial DAO, that raises its funding from the JMES blockchain's Governance System and redistributes [JMES](https://www.jmes.world/) issued from [block rewards](https://docs.jmes.money) to users who produce open-source output that forwards our [Strategy](#13-strategy) in support of our [Vision](#12-vision).
+This DAO is a non-profit, non-commercial DAO, that raises its funding from the JMES blockchain's Governance System and redistributes [JMES](https://www.jmes.world/) issued from [block rewards](https://docs.jmes.money) to users who produce open-source output that forwards our [Strategy](#13-strategy) in support of our [Vision](#12-vision).
 
 The DAO uses its own micro-incentive based [Bounty](#2-bounties) system to fund and manage the end-to-end delivery of a wide variety of projects [proposed](#21-concepts) by the community, ranging from small [jobs](#22-bounty-types) such as bug bounties, to ongoing [services](#22-bounty-types) such as promotions or infrastructure provision, to mid-size development [projects](#22-bounty-types) such as protocol and end-user software development.
 
@@ -41,8 +41,7 @@ The DAO is classified as an [open-source DAO](#14-full-transparency), meaning th
 
 All work produced by the DAO, known as Output, including the DAO's software itself, is open-source and licensed under MIT License.
 
-All handling and allocation of DAO [funds](#5-funds) can be publicly verified down to [user-task](#25-tasks) level via the [auditing](#54-auditing) using the [blockchain](#61-network) in realtime.
-
+All handling and allocation of DAO [funds](#5-funds) can be publicly verified down to [user-task](#25-tasks) level via the [auditing](#54-auditing) of transactions using the [blockchain](#61-network) in realtime.
 
 ## 1.1 Mission
 
@@ -50,7 +49,7 @@ The Crypto Castle's mission is to support the JMES Network by producing the most
 
 ## 1.2 Vision
 
-Our vision is for JMES to become the number one cryptocurrency for tokenizing real-world physical and digital art in all its forms, supported by a community of incentivized and empowered Artists creating art for our users to own and enjoy within a rich ecosystem of digital and physical experiences.
+Our vision is for JMES to become the number one cryptocurrency for tokenizing real-world physical and digital art in all its forms, supported by a community of incentivized and empowered Artists creating art for users to own and enjoy within a rich ecosystem of digital and physical experiences.
 
 ## 1.3 Strategy
 
@@ -79,6 +78,8 @@ The DAO's strategy is defined as a set of [criteria](131-funding-criteria) that 
 9. Kickstarting initiatives that help to support and retain developers who are key to the JMES project in general.
 
 10. Kickstarting DAO forks with synergistic Strategies to increase competition and decentralization within the JMES ecosystem.
+
+11. Funding core team incentives for the development of the blockchain up till launch.
 
 Bounties that don't meet any of these criteria won't be funded by the DAO.
 
@@ -122,11 +123,11 @@ There are several levels to classification of DAO users as follows:
 
  - End-Users - anyone who uses a product developed by the DAO
 
-> Currently all Members can be found as the members of our [Trello board](#63-bounty-system)
+> Currently all Members can be found as members of our [Trello board](#63-bounty-system)
 
 ## 1.6 Network Contract
 
-This document contains the Rules that define the terms between DAO and the [Network](#61-network) for how any funding awarded to the DAO by the Network will be used.
+This document contains the Rules that define the terms between the DAO and the [Network](#61-network) for how any funding awarded to the DAO by the Network will be used.
 
 When coupled with DAO's [full transparency](#14-full-transparency) policy, anyone can trustlessly audit how well the DAO is meeting the commitments of these terms in realtime, including verifying the use of all funding via the JMES blockchain itself down to a user/task level.
 
@@ -138,7 +139,7 @@ The authoritative source for the Rules are contained in a single document hosted
 
 ## 1.7 Legal
 
-The DAO is an open-source DAO and not a legal entity and as such doesn’t own any assets, including any rights to any output, nor does the DAO apply any restrictions on contributor's usage of their own Task output, apart from the requirement that all output must be licenses as open-sourc under a license such as MIT or Apache.
+The DAO is an open-source DAO and not a legal entity and as such doesn’t own any assets, including any rights to any output, nor does the DAO apply any restrictions on contributor's usage of their own Task output, apart from the requirement that all output must be licensed as open-source under a license such as MIT or Apache.
 
 The only funding the DAO receives is in the form of JMES tokens issued directly from the JMES blockchain, which it redistributes to users who provide verifiable open-source output for predefined tasks approved by Admins, who agree to operate in accordance with the Rules defined in this document.
 
@@ -148,12 +149,12 @@ The DAO does not handle, hold or pay fiat currency and all rewards are issued in
 
 A Bounty in the DAO means a collection of work that can be completed by contributors for a reward, such as development or promotion of the Network or of the DAO itself.
 
-Bounties are first proposed as Concepts by the community, and there are four [types](#22-bounty-types) of Bounty that can be funded, each containing a series of [Tasks](#22-bounty-types) that are managed by the Bounty's [Admin](#4-admins), who earn a % commission of all rewards that the Bounty generates.
+Bounties are first proposed as Concepts by the community, and there are three [types](#22-bounty-types) of Bounty that can be funded, each containing a series of [Tasks](#22-bounty-types) that are managed by the Bounty's [Admin](#4-admins), who earn a % commission of all rewards that the Bounty generates.
 
   
 ## 2.1 Concepts
 
-All Bounties start as a Concept that is [proposed](#31-proposing-concepts) to the DAO by a community member.
+All Bounties start as a Concept [proposed](#31-proposing-concepts) to the DAO by a community member.
 
 Concepts are proposals for some work that the DAO should fund as a Bounty, that provide enough detail about the value proposition and requirements of the work to enable Contributors to complete it.
 
@@ -161,19 +162,17 @@ Concepts are proposals for some work that the DAO should fund as a Bounty, that 
 
 Admins can [Accept](#435-processing-task-claims) any Concept that meets our [Concept Acceptance Criteria](#411-concept-acceptance-criteria) on a first-come first-serve basis.
 
-Once accepted, the user who created the Concept is automatically assigned as a [Stakeholder](#25-bounty-stakeholders) to the corresponding bounty and awarded a task for the submitted Concept.
+Once accepted, the user who created the Concept is automatically assigned as a [Stakeholder](#25-bounty-stakeholders) to the bounty and awarded a Stakeholder task for the submitted Concept.
 
 ## 2.2 Bounty Types
 
-When a Bounty is created from a [Concept](#21-concepts) by an [Admins](#4-admins), they assign one of four types for the new Bounty that determine how work will be structured:
+When a Bounty is created from a [Concept](#21-concepts) by an [Admins](#4-admins), they assign one of three types for the new Bounty that determine how work will be structured:
 
 -  **Projects** develop products such as end-user software, tools for the community or improvements to the JMES Protocol itself.
 
 -  **Services** provide ongoing work that involves provision of some service, such as website hosting, code maintenance, or a recurring requirement for servicing the DAO itself.
 
 -  **Jobs** are one-off pieces of work, such as finding bugs or fixing a github issue.
-
--  **Programmes** are collections of Project, Service or Job Bounties that coordinate large pieces of work.
 
 > All Bounties in the DAO are represented by a Card on our [Trello board](#63-bounty-system). The Bounty's type is represented by the column the Card is in on the Board. Meta Bounties are shown with the pink label on the Card's front cover.
 
@@ -183,19 +182,15 @@ Each Bounty can be set to have one of the following Statuses at any time:
 
 -  **Active** - The Bounty is in progress and any Tasks can be created, edited or completed
 
--  **Paused** - The Bounty is on-hold and no Tasks can be created, edited or completed
+-  **Inactive** - The Bounty is on-hold and no Tasks can be created, edited or completed
 
--  **Completed** - The Bounty is archived and no changes can be made.
+-  **Pending** - The Bounty has been accepted as a Concept but not yet assigned to an Admin.
 
 ## 2.4 Bounty Stakeholders
 
-For some bounties, Admins may wish to regularly solicit the views of subject area experts or other key stakeholders as part of the decision making process when defining bounty tasks.
+Admins may wish to solicit the views of subject area experts or other key stakeholders as part of the decision making process when defining bounty tasks. In this case, the Admin will add and assign a Stakeholder task to the bounty so their input is incentivised and the nature of interest/input recorded against the Bounty data.
 
-Whilst bounty administration remains under the control of the Admins of the bounty, a record of these Stakeholders, the nature of their interest, and the circumstances under which they should be consulted, may be added to the Bounty data.
-
-[Concept](#21-concepts) creators are automatically added as Stakeholders of any Bounty that derives from the Concept.
-
-> On Trello, the stakeholder usernames are added to the Card's description in a Stakeholders section by the primary or secondary Admin, including any additional information on the context for their involvement.
+[Concept](#21-concepts) creators are automatically added as Stakeholders of the Bounty that derives from the Concept.
 
 ## 2.5 Tasks
 
@@ -207,47 +202,55 @@ Tasks are defined by Admins and can be completed by any user after [reserving](#
 
 Each Task must define some quantifiable Output (a document, commit, etc) that a user can produce to be eligible to [Claim](#26-claims) the specified reward.
 
-There are four types of Task available:
+There are five types of Task available:
 
-- [Concept Tasks](#251-concept-tasks) - the initial creation of a Concept that results in the creation of a new Bounty
+- [Stakeholder Tasks](#251-stakeholder-tasks) - any input against the bounty not covered by other task types, including the initial creation of the Bounty's Concept
 
 - [Specification Tasks](#252-specification-tasks) - work that provides the detail necessary to define Production Tasks
 
-- [Production Tasks](#253-production-tasks) - work related to Tasks required to complete Project, Service and Job bounties
+- [Design Tasks](#253-design-tasks) - work that provides plans or visual representation of requirements defined within Specification Tasks
 
-- [QA Tasks](#254-qa-tasks) - work that assures the quality of Production Tasks
+- [Production Tasks](#254-production-tasks) - work related to Tasks required to complete Project, Service and Job bounties
 
-> Each Task Type is represented as a named Checklist on the Bounty’s Trello Card, except for Concept Tasks, which are implicitly completed when a Concept is Accepted by an Admin.
+- [QA Tasks](#255-qa-tasks) - work that assures the quality of Production Tasks
 
-### 2.5.1 Concept Tasks
+> Each Task Type is represented as a named Checklist on the Bounty’s Trello Card.
 
-A Concept Task is defined as the [submission of new Concept](#31-proposing-concepts) by a user.
+### 2.5.1 Stakeholder Tasks
 
-The [Claim](#34-claiming-tasks) for a Concept Reward is considered to be implicit and approved as soon as an Admin [Accepts](#41-accepting-concepts) the Concept.
+Stakeholder Tasks incentivize bounty contributions by interested parties such as subject matter experts or Product Owners. 
 
-Note that several Bounties can be [forked](#424-forking-bounties) from a single Concept, however, the Concept reward is only paid the first time the Concept is accepted.
+The [Claim](#34-claiming-tasks) for a new Concept Reward is a Stakeholder task implicitly approved as soon as an Admin [Accepts](#41-accepting-concepts) the Concept.
 
 ### 2.5.2 Specification Tasks
 
-Specification Tasks define how [Production Tasks](#253-production-tasks) should be completed and [QA'd](#254-qa-tasks).
+Specification Tasks define how [Production Tasks](#254-production-tasks) should be completed and/or [QA'd](#255-qa-tasks).
 
-The output is usually a document such as a Design Requirements doc, Functional Specification, or any resource that enables output relating to achieving the Value Proposition of the Bounty to be produced effectively.
+The output is usually a document such as a Functional or QA Specification, or any resource that enables output relating to achieving the Value Proposition of the Bounty to be produced and QA'd effectively.
 
 Admins measure the quality of the Specification in terms of its fitness for purpose and adequate detail level to define the Production Tasks a [Contributor](#15-users) needs to implement it.
 
-### 2.5.3 Production Tasks
+### 2.5.3 Design Tasks
+
+Design Tasks provide visual representation of the product, system or project defined in [Specification Tasks](#254-production-tasks).
+
+Usually Design Tasks output Figma, wireframes or any other file that can be used as a visual guide for productions tasks.
+
+Design output should be functional, asthetically pleasing and should meet the needs of the intended audience.
+
+### 2.5.4 Production Tasks
 
 Production Tasks are the actual output of a Bounty that deliver the value proposition.
 
 Usually Production Tasks output some code or a working product, but if the Bounty is for example a research project, the Production Tasks could output documents or analysis, or any format that satisfies the goals of the Bounty.
 
-### 2.5.4 QA Tasks
+### 2.5.5 QA Tasks
 
 Quality Assurance tasks validate and test that [Production Tasks](#253-production-tasks) meet their [Specification](#252-specification-tasks).
 
-Most Production Tasks should require related QA tasks, and Specifications should include a QA plan to provide a clear and easy way to measure how well a Production Task meets its spec when the QA is performed.
+Most Production Tasks require related QA tasks. Specifications can include a QA plan to provide a clear and easy way to measure how well a Production Task meets its spec when the QA is performed.
 
-QA Tasks must reference the relevant Specification or Production Task and produce some QA report output.
+QA Tasks must reference the relevant Specification, Design or Production Task and produce some QA report output.
 
 > It is recommended to use the [QA Report Template](#63-bounty-system) unless the admin requests an alternative format.
 
@@ -265,6 +268,8 @@ The DAO is a pure-coin fund meaning all rewards are awarded in JMES. It's not pe
 
 Each type of [Task](#25-tasks) offered by the DAO has limits on the min/max rewards an Admin may [price](#433-pricing-tasks) as defined below.
 
+These limits will be built into the rules once the JMES valuation has stabalised - hence the placeholders values of 'tbc' in the list below.
+
 The Admin % is an added [commission reward](#44-admin-rewards) that an Admin earns for Approving a Claim on a Task they own, plus a [commission bonus](#441-commission-bonuses) based on the Admin's level of activity.
 
 ### 2.7.1 Price List
@@ -279,31 +284,37 @@ The Admin % is an added [commission reward](#44-admin-rewards) that an Admin ear
     <tr>
         <td>Concept Task</td>
         <td>Accepted Concept</td>
-        <td>0.5 JMES</td>
+        <td>tbc JMES</td>
         <td>10% - 15%</td>
     </tr>
     <tr>
         <td>Specification Task</td>
         <td>Valid Specification</td>
-        <td>0.1-5 JMES</td>
+        <td>tbc-tbc JMES</td>
+        <td>10% - 15%</td>
+    </tr>
+     <tr>
+        <td>Design Task</td>
+        <td>Valid Design</td>
+        <td>tbc-tbc JMES</td>
         <td>10% - 15%</td>
     </tr>
     <tr>
         <td>Production Task (Project, Service, Programme)</td>
         <td>QA Complete</td>
-        <td>0.1-20 JMES</td>
+        <td>tbc-tbc JMES</td>
         <td>10% - 15%</td>
     </tr>
     <tr>
         <td>Production Task (Job)</td>
         <td>Valid Job (to Spec or QA)</td>
-        <td>0.1-10 JMES</td>
+        <td>tbc-tbc JMES</td>
         <td>10% - 15%</td>
     </tr>
     <tr>
         <td>QA Task</td>
         <td>Valid QA Report</td>
-        <td>0.1-5 JMES</td>
+        <td>tbc-tbc JMES</td>
         <td>10% - 15%</td>
     </tr>
 </table>
@@ -320,7 +331,7 @@ All work produced at the DAO must be open-sourced under MIT license before any r
 
 Anyone can create a [Concept](#21-concepts) by submitting a [New Concept](#62-dao).
 
-Any [Admin](#4-admins) can [Accept](#435-processing-task-claims) a Concept that meets our [Concept Acceptance Criteria](#411-concept-acceptance-criteria), meaning they create a new [Bounty](#2-bounties) for it that they become the owner of.
+Any [Admin](#4-admins) can [Accept](#435-processing-task-claims) a Concept that meets our [Concept Acceptance Criteria](#411-concept-acceptance-criteria), meaning they create a new [Bounty](#2-bounties) for it that they become the owner of, or they assign it to the Pending Bounty list for another Admin to own.
 
 The [Concept Reward](#271-price-list) is paid to the JMES address listed in the Concept if and when it is accepted by any of the Admins.
 
@@ -358,13 +369,13 @@ Once you have completed the work for a Task you can make a [Claim](#26-claims) f
 
 Once your Claim has been created it will [processed](#435-processing-task-claims) by an admin.
 
-> To create a Claim on Trello, leave a comment on the Bounty's [Trello Card](TODO) specifying the number and type of the Task you are claiming, along with the source links and your JMES address
+> To create a Claim on Trello, leave a comment on the Bounty's [Trello Card](TODO) specifying the number and type of the Task you are claiming, along with the source links and your JMES address.
 
 ### 3.4.1 Null Claims
 
 In some cases, users wish to decline rewards for some reason.
 
-This is strongly discouraged as incentives are how DAO maintains a high level of creativity, productivity, and quality of output, and Claims themselves are how we track and account for work completion in the Bounty System.
+This is strongly discouraged as incentives are how the DAO maintains a high level of creativity, productivity, and quality of output, and Claims themselves are how we track and account for work completion in the Bounty System.
 
 However, to support the requirement, we introduced the option to create a Null Claim.
 
@@ -380,7 +391,7 @@ As all work (and spending) is structured as a Bounty within the DAO, and Bountie
 
 Admins are peers, each with control of a share of the DAO's funds that they can use to create and manage bounties that incentivize Contributors to produce output for the DAO.
 
-Admins can simultaneously act as Contributors, by completing Tasks set by other Admins, but they cannot price or reserve Tasks for themselves.
+Admins can simultaneously act as Contributors, by completing Tasks set by other Admins, but they cannot price, reserve or approve Tasks for themselves.
 
 Admins have additional rights to appoint other Admins and to maintain the Rules defined in this document, which define all aspects of how the DAO should operate, which they are each responsible for implementing correctly.
 
@@ -390,11 +401,11 @@ Admins have additional rights to appoint other Admins and to maintain the Rules 
 
 Bounties are created via the Acceptance of a user-submitted [Concept](#31-concepts) by an Admin.
 
-- A Bounty is only created from a Concept approval, and all Bounties must refer back to a single Concept
+- A Bounty is only created from a Concept approval, and all Bounties must refer back to a single Concept.
 
 - Any Admin can Accept a new Concept but must first validate that it meets our [Concept Acceptance Criteria](#411-concept-acceptance-criteria)
 
-- Admins do not need permission from or consensus between other Admins to accept a Concept
+- Admins do not need permission from or consensus between other Admins to accept a Concept.
 
 - Admins can submit new Concepts themselves, but need another Admin to Accept them.
 
@@ -402,31 +413,27 @@ Bounties are created via the Acceptance of a user-submitted [Concept](#31-concep
 
 >  - In Trello, Admins formally Accept a Concept by [creating a new Bounty](#421-creating-bounties) for the Concept and linking it in a reply to the user's comment on the [New Concept Card](#62-dao) card.
 
->  - The Admin should also add an entry to the [Payments Sheet](#64-accounts), using the user's details and JMES address from the Concept they submitted
+>  - The Admin should also add an entry to the [Payments Sheet](#64-accounts), using the user's details and JMES address from the Concept they submitted.
 
 ### 4.1.1 Concept Acceptance Criteria
 
 Admins must judge that Concepts they wish to Accept meet all of the following criteria:
 
-1. Provide a clear Value Proposition that can return value to JMES that's inline with our [Strategy](#13-strategy) and [Vision](#12-vision)
+1. Provide a clear Value Proposition that can return value to JMES that's inline with our [Strategy](#13-strategy) and [Vision](#12-vision).
 
-2. Provide enough detail on requirements to enable a Bounty to achieve the stated goals
+2. Provide enough detail on requirements to enable a Bounty to achieve the stated goals.
 
-3. Be technically feasible using the current JMES Protocol or some unreleased but known iteration of it
+3. Be technically feasible using the current JMES Protocol or some unreleased but known iteration of it.
 
-4. Be unique within the existing set of Concepts & Bounties already added to the DAO, i.e. not a duplicate or very similar scope to an existing active Bounty
+4. Be unique within the existing set of Concepts & Bounties already added to the DAO, i.e. not a duplicate or very similar scope to an existing active Bounty.
 
-5. Be achievable in terms of costs compared to the DAO's current funding levels
+5. Be achievable in terms of costs compared to the DAO's current funding levels.
+
+6. The Description text reflects the Value Proposition of the related Concept.
 
 ## 4.2 Bounty Management
 
-4. The Description text reflects the Value Proposition of the related Concept.
-
-5. The Concept creator is listed as a [Stakeholder](#25-bounty-stakeholders)
-
-6. Optionally appoint a Secondary Admin for the Bounty
-
-> In Trello, Bounty ownership is designated by assigning the Admin user as the Member of the card on the top left below the card title. When two Admins are assigned to the card, the secondary Admin is designated by putting their Trello username into the Secondary Admin field on the card.
+> In Trello, Bounty ownership is designated by the Admin putting their Trello username into the Admin field on the card and adding themselves as a Member of the card on the top left below the card title. When two Admins are assigned to the card, the secondary Admin is designated by putting their Trello username into the Secondary Admin field on the card.
 
 ### 4.2.2 Bounty Ownership
 
@@ -434,9 +441,9 @@ The Admin who created a Bounty is given the rights as the Owner of that Bounty, 
 
 The Bounty Owner has exclusive rights to edit the Bounty's fields, define Tasks and process resulting Claims, and change the Bounty's [Status](#23-bounty-status).
 
-The Bounty Owner may transfer ownership to another Admin at any time.
+The Bounty Owner may transfer ownership to another Admin at any time or assign the Bounty to the Pending Bounty column for any Admin to claim.
 
-> In Trello, Ownership is determined by the Admin who is a Member of the Card and who's username isn't specified in the Secondary Admin field.
+> In Trello, Ownership is determined by the Admin who is a Member of the Card and who's username is specified in the Admin field.
 
 ### 4.2.3 Secondary Admins
 
@@ -477,7 +484,7 @@ The due-date is the date whereby if a [Claim](#26-claims) is not made for the Ta
 >
 > This information should be entered into the Task description in the following format:
 >
->```[taskNumber][taskDescription](AdminUsername)([amount] JMES)```
+>```[taskNumber](AdminUsername)[taskDescription](AdminUsername)([amount] JMES)```
 
 ### 4.3.2 Task Ownership
 
@@ -491,7 +498,7 @@ A Task owner has exclusive rights to:
 
 - Transfer Ownership of the Task to another Admin
 
-- Optionally, the Admin can set Task ownership to 'Open', meaning the other Admin on the bounty is free to process the Claim and receive the commission reward
+- Optionally, the Admin can set Task ownership to 'Open' by omitting their name from the task description, meaning the other Admin on the bounty is free to process the Claim and receive the commission reward
 
 If an Admin leaves a Bounty, for example via Owner transfer or removal of a secondary, the leaving Admin retains ownership of their own Tasks after they left, until they are completed or they decide to transfer their ownership to another Admin.
 
@@ -722,7 +729,7 @@ Below are links to all resources needed to access, fork or audit every aspect of
     </tr>
     <tr>
         <td>Chat</td>
-        <td><a  href="#TBC">Crypto Castle Discord</a></td>
+        <td><a  href="https://discord.gg/692zYdc6">Crypto Castle Discord</a></td>
     </tr>
 </table>
 
